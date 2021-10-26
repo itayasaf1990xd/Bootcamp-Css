@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+div.box1 {
+  border: 1px solid #fc1010;
+  border-radius: 25px;
+  font-size: 1.5em;
+  margin: 2.5px 0;
+}
+
+div.box2 {
+  font-size: 1.25em;
+  font-weight: bold;
+  font-style: italic;
+  margin: 2.5px 0;
+}
+
+div.box3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  color: #fefefe;
+  background: #121212;
+  margin: 2.5px 0;
+  box-shadow: 10px 10px 20px -5px #333333;
+}
