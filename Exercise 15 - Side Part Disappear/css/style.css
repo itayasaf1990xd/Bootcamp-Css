@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 75%;
+  margin: 5px auto;
+}
+
+header {
+  height: 135px;
+  background: #f4a42c;
+  margin: 0px 0 5px 0;
+}
+
+footer p, header p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+aside {
+  float: left;
+  width: 49.75%;
+  height: 750px;
+  background: #458207;
+  padding: 25px 0 0 25px;
+
+}
+
+main {
+  float: right;
+  width: 49.75%;
+  height: 750px;
+  background: #833b7f;
+  text-align: right;
+  padding: 25px 25px 0 0;
+}
+
+footer {
+  height: 135px;
+  background: #3566fd;
+  margin: 5px 0 0 0;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (max-width: 1200px) {
+  aside {
+    display: none;
+  }
+  main {
+    width: 100%;
+  }
+}
