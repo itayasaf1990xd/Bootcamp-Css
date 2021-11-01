@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 250px auto;
+  line-height: 1.5rem;
+  border: 1px solid #333333;
+  width: 50%;
+}
+
+.content {
+  font-size: 1.25rem;
+  margin: 50px;
+}
+
+a[data-tooltip="value"] {
+  position: relative;
+}
+
+a[data-tooltip="value"]:hover::before {
+  content: "";
+  position: absolute;
+  top: -12.5px;
+  left: 20px;
+  width: 15px;
+  height: 15px;
+  background: #ffde23;
+  color: #fefefe;
+  font-size: 0.75rem;
+  text-align: center;
+  transform: rotate(45deg);
+}
+
+a[data-tooltip="value"]:hover::after {
+  content: "this is a badass tooltip";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 125px;
+  height: 25px;
+  background: #ffde23;
+  border-radius: 50px;
+  color: #fefefe;
+  font-size: 0.75rem;
+  text-align: center;
+}
