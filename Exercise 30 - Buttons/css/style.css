@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General */
+body {
+  color: #fefefe;
+  background: #334660;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  margin: 5px 0 15px 0;
+}
+
+.container {
+  width: 50vw;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.button {
+  color: #fefefe;
+  transition: background 1s;
+}
+
+.button-big {
+  width: 200px;
+  height: 55px;
+  margin: 0 10px;
+}
+
+.button-medium {
+  width: 150px;
+  height: 45px;
+  margin: 0 10px;
+}
+
+.button-small {
+  width: 100px;
+  height: 35px;
+  margin: 0 10px;
+}
+
+.flat-button, .round-button {
+  border: none;
+}
+
+.ghost-button {
+  border: 2.5px solid #010101;
+  background: transparent;
+}
+
+/* Flat Button */
+.flat-button.button-big {
+  background: #01dd77;
+}
+
+.flat-button.button-big:hover {
+  background: #01CF6F;
+}
+
+.flat-button.button-medium {
+  background: #fc2324;
+}
+
+.flat-button.button-medium:hover {
+  background: #FB0E0E;
+}
+
+.flat-button.button-small {
+  background: #0288D5;
+}
+
+.flat-button.button-small:hover {
+  background: #027DC5;
+}
+
+/* Round Button */
+.round-button.button-big {
+  background: #f37906;
+  border-radius: 50px;
+}
+
+.round-button.button-big:hover {
+  background: #E27006;
+}
+
+.round-button.button-medium {
+  background: #f2cc05;
+  border-radius: 50px;
+}
+
+.round-button.button-medium:hover {
+  background: #DFBA05;
+}
+
+.round-button.button-small {
+  background: #7E8C8F;
+  border-radius: 50px;
+}
+
+.round-button.button-small:hover {
+  background: #758386;
+}
+
+/* Flat Ghost Button */
+.flat-button.ghost-button.button-big {
+  background: transparent;
+  border: 2.5px solid #fc2324;
+}
+
+.flat-button.ghost-button.button-big:hover {
+  background: #fc2324;
+}
+
+.flat-button.ghost-button.button-medium {
+  background: transparent;
+  border: 2.5px solid #01CF6F;
+}
+
+.flat-button.ghost-button.button-medium:hover {
+  background: #01CF6F;
+}
+
+.flat-button.ghost-button.button-small {
+  background: transparent;
+  border: 2.5px solid #027DC5;
+}
+
+.flat-button.ghost-button.button-small:hover {
+  background: #027DC5;
+}
+
+/* Round Ghost Button */
+.round-button.ghost-button.button-big {
+  background: transparent;
+  border: 2.5px solid #f37906;
+}
+
+.round-button.ghost-button.button-big:hover {
+  background: #f37906;
+}
+
+.round-button.ghost-button.button-medium {
+  background: transparent;
+  border: 2.5px solid #f2cc05;
+}
+
+.round-button.ghost-button.button-medium:hover {
+  background: #f2cc05;
+}
+
+.round-button.ghost-button.button-small {
+  background: transparent;
+  border: 2.5px solid #758386;
+}
+
+.round-button.ghost-button.button-small:hover {
+  background: #758386;
+}
